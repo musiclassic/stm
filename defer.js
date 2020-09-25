@@ -1,0 +1,1 @@
+if(window.location.hash){var rewriting=location.hash.split("search=")[1].split("&")[0];window.location.href=rewriting}$("#submit-b").click(function(){$.trim($("#videoURL").val()).length>0&&($(".dl-result, .ad-mid, .sidebar1, .sidebar2").show("fast"),jQuery(".intro").hide())});var elem=document.getElementById("videoURL");elem&&document.getElementById("submit-b").click();
